@@ -39,8 +39,8 @@ p {
     border-radius: 5px;
 }
 
-.donate-today {
-    height: 700px;
+.donate-part {
+    height: 400px;
     margin-top: 50px;
     text-align: center;
 }
@@ -73,4 +73,31 @@ p {
     border: none;
     border-bottom-style: groove;
     text-align: center;
+}
+
+.donation-item {
+    width: 25%;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding-left: 20px;
+    padding-top: 20px;
+    text-align: left;
+}
+
+
+.flex-item-contatiner {
+    display: flex;
+    margin-left: 100px;
+}
+
+#food-donation {
+    background-color: rgba(211, 213, 167, 0.416);
+}
+
+#shelter-donation {
+    background-color: rgba(213, 185, 167, 0.416);
+}
+
+#education-donation {
+    background-color: rgba(167, 213, 209, 0.416);
 }
